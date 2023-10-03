@@ -1,0 +1,4 @@
+#!/bin/bash
+
+find . -type f -empty | sed 's/.\///'
+find . -type d -empty | sed 's/.\///'

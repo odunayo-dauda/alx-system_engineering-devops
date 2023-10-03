@@ -1,0 +1,2 @@
+#!/bin/bash
+awk 'NR == 1 { printf $1; next } { printf $1 } END { printf "\n" }'
