@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
+#This is access my server by just saving this script in a fin inside bin and call it anywhere
 ssh -i ~/.ssh/school ubuntu@100.25.223.253
